@@ -7,14 +7,18 @@
  * Return: Always 0 (Success)
  */
 
-
 int main(void)
-{
-	int a;
 
-	for(a = 0; a < 10; a++)
+{
+	int num = 0;
+
+	while (num < 10)
 	{
-		printf("%d\n", a);
+		printf("%d", num);
+		num++;
 	}
-	return(0);
+	putchar('\n');
+
+	return (0);
+
 }
